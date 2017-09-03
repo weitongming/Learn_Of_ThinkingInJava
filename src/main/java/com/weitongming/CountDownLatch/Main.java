@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Created by tim.wei on 2017/9/3.
+ * CountDOwnLatch 用来同步一个或者多个任务，强制他们等待由其他任务执行的一组操作完成
  */
 public class Main {
     private  static int size = 100 ;
